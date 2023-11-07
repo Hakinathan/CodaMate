@@ -1,0 +1,35 @@
+.container {
+  padding: 4rem 0;
+  text-align: center;
+  height: 60vh;
+  display: flex;
+  flex-direction: column;
+  gap: 1.6rem;
+}
+
+.title {
+  font-size: 4.8rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+  color: var(--color-primary);
+}
+
+.description {
+  font-size: 1.5rem;
+  font-weight: 500;
+  margin-bottom: 1rem;
+}
+
+.link:link,
+.link:visited {
+  font-size: 1.5rem;
+  color: #0070f3;
+  text-decoration: none;
+  transition: color 0.15s ease;
+}
+
+.link:hover,
+.link:focus,
+.link:active {
+  color: #0040f3;
+}

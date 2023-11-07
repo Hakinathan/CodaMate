@@ -1,0 +1,109 @@
+/* 1212px (Smaller desktops) */
+@media (max-width: 76em) {
+  html {
+    /* 9px : 16px = 0.5625 */
+    font-size: 56.25%;
+  }
+
+  .hero__title {
+    font-size: 4.8rem;
+  }
+
+  .hero__text {
+    font-size: 2rem;
+  }
+}
+
+/* 944px (Tablets) */
+@media (max-width: 59em) {
+  html {
+    /* 8px / 16 = 0.50 */
+    font-size: 50%;
+  }
+}
+
+/* 700px (Smaller tablets) */
+@media (max-width: 44em) {
+  .nav__list {
+    flex-direction: column;
+  }
+
+  .hero__title {
+    font-size: 3.2rem;
+  }
+
+  .hero__text {
+    font-size: 1.8rem;
+  }
+
+  .section--about {
+    grid-template-columns: 1fr;
+    text-align: center;
+  }
+
+  .about__img {
+    margin: 0 auto;
+  }
+
+  .about__text-box {
+    margin: 0 4.8rem;
+  }
+
+  .services__container {
+    grid-template-columns: repeat(2, 1fr);
+    margin: 0 4.8rem;
+  }
+
+  .testimonial {
+    flex-direction: column;
+    margin: 0 4.8rem;
+    text-align: center;
+  }
+
+  .section--cta {
+    margin: 0 4.8rem;
+  }
+}
+
+/* 544px (Phones) */
+@media (max-width: 34em) {
+  .nav {
+    padding: 2.4rem;
+  }
+
+  .nav__list-item:link,
+  .nav__list-item:visited {
+    font-size: 1.8rem;
+  }
+
+  .about__img {
+    width: 30rem;
+    height: 40rem;
+  }
+
+  .hero__title {
+    font-size: 2.4rem;
+  }
+
+  .hero__text {
+    font-size: 1.6rem;
+  }
+
+  .services__container {
+    grid-template-columns: 1fr;
+    margin: 0 2.4rem;
+  }
+
+  .cta__title {
+    font-size: 2.4rem;
+  }
+
+  .cta__text {
+    font-size: 1.6rem;
+  }
+
+  .cta__btn:link,
+  .cta__btn:visited {
+    font-size: 1.6rem;
+  }
+}
