@@ -23,18 +23,19 @@ const testimonials = [
 
 function Testimonials() {
   return (
-    <section className="section section--testimonials" id="testimonials">
-      <div className="testimonials__container flex flex--column">
-        {testimonials.map((testimonial, index) => (
-          <Testimonial
-            key={index}
-            name={testimonial.name}
-            text={testimonial.text}
-            img={testimonial.img}
-            source={testimonial.source}
-          />
-        ))}
-      </div>
+    <section
+      className="section section--testimonials testimonials__container flex flex--column"
+      id="testimonials"
+    >
+      {testimonials.map((testimonial, index) => (
+        <Testimonial
+          key={index}
+          name={testimonial.name}
+          text={testimonial.text}
+          img={testimonial.img}
+          source={testimonial.source}
+        />
+      ))}
     </section>
   );
 }
