@@ -22,7 +22,7 @@
 }
 
 .header__title {
-  font-size: 2rem;
+  font-size: 1.6rem;
   font-weight: 700;
   color: white;
 }
@@ -322,11 +322,12 @@
 /* CTA */
 .section--cta {
   margin: 0 auto 9.6rem auto;
-  max-width: 100rem;
+  max-width: 110rem;
   text-align: center;
   background-color: var(--color-text-title);
   border-radius: 3rem;
   color: var(--color-white);
+  padding: 3.2rem;
 }
 
 .cta__container-text-box {
